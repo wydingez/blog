@@ -78,7 +78,12 @@ theme: nexmoe
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: https://github.com/wydingez/blog.git
+  branch: gh-pages
+  message: 发布静态文件
+  name: wydingez
+  email: 981342796@qq.com
 
 # hexo-admin authentification
 admin:
