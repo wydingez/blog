@@ -1,0 +1,18 @@
+<% if (theme.analytics.google_site_id) { %>
+    <%- partial('_analytics/google', {}, {cache: true}) %>
+<% } %>
+<% if (theme.analytics.gtags_site_id) { %>
+    <%- partial('_analytics/gtags', {}, {cache: true}) %>
+<% } %>
+<% if (theme.analytics.cnzz_site_id) { %>
+    <%- partial('_analytics/cnzz', {}, {cache: true}) %>
+<% } %>
+<% if (theme.analytics.tencent_site_id) { %>
+    <%- partial('_analytics/tencent', {}, {cache: true}) %>
+<% } %>
+<% if (theme.analytics.la_site_id) { %>
+    <%- partial('_analytics/la', {}, {cache: true}) %>
+<% } %>
+<% if (theme.analytics.baidu_site_id) { %>
+    <%- partial('_analytics/baidu', {}, {cache: true}) %>
+<% } %>
