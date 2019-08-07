@@ -14,7 +14,8 @@ timezone:
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://yoursite.com
-root: /
+## 部署的二级目录
+root: /blog
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
