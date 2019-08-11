@@ -24,7 +24,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <%- partial('_partial/_analytics/gtm-head', {}, {cache: true}) %>
   <%- partial('_partial/site-verification', {}, {cache: true}) %>
-  <link rel="shortcut icon" href="<%= theme.favicon.href %>" type="<%= theme.favicon.type %>" />
+  <link rel="shortcut icon" href="<%= url_for(theme.favicon.href) %>" type="<%= theme.favicon.type %>" />
   <%- open_graph({twitter_id: theme.twitter, google_plus: theme.google_plus, fb_admins: theme.fb_admins, fb_app_id: theme.fb_app_id}) %>
   <link rel="stylesheet" href="<%- theme.cdn.mdui.css %>">
   <link rel="stylesheet" href="<%- theme.cdn.highlight.css %>">

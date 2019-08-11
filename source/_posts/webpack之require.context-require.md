@@ -1,12 +1,17 @@
-title: webpack之require.context / require的正确使用方法
-tags: []
-categories:
+title: webpack之require.context / require
+tags:
   - webpack
+  - vue
+categories:
+  - 学习笔记
+cover: >-
+  http://wyd-mages.oss-cn-shanghai.aliyuncs.com/c9ece60fccb8eabeacc98e6f712f2db906615b2e.jpg
 date: 2019-08-06 15:37:00
 ---
-> vue中我们有时候会把多个route拆到不同的文件中去，合并的时候我们需要一个一个的去引用，这样不够友好：
+> vue中我们有时候会把多个route拆到不同的文件中去，合并的时候我们需要一个一个的去引用，这样不够友好
 
-因此webpack的require.context和require应运而生，它可以帮助我们动态的去引用目录下的文件：[参考链接](https://webpack.docschina.org/guides/dependency-management/)
+> 因此webpack的require.context和require应运而生，它可以帮助我们动态的去引用目录下的文件：[参考链接](https://webpack.docschina.org/guides/dependency-management/)
+<!--more--> 
 
 ## require.context
 ### 1. 使用方法
@@ -17,7 +22,7 @@ console.log(context.keys())
 
 ```
 
-### 2. 踩坑点,[动态规则会有问题](https://github.com/webpack/webpack/issues/4772#issuecomment-424953990)
+### 2. 踩坑点 [动态规则会有问题](https://github.com/webpack/webpack/issues/4772#issuecomment-424953990)
 ```js
 // 然而如果使用动态生成的方式生成正则，会有问题
 const activeModules = ['core', 'demos'].join('|')
@@ -27,7 +32,7 @@ console.log(context.keys())
 ```
 
 ## require
-避免以上问题，就是使用require(variable) and use the ContextReplacementPlugin to provide the "staticness" via config
+避免以上问题，就是使用**require(variable) and use the ContextReplacementPlugin to provide the "staticness" via config**
 ```js
 export default function dynamicImport (type) {
   let ret = []
