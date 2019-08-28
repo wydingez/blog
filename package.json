@@ -5,6 +5,11 @@
   "hexo": {
     "version": "3.9.0"
   },
+  "scripts": {
+    "dev": "hexo server",
+    "publish": "hexo generate & hexo deploy",
+    "commit": "git add . && git commit -m \"update post\" && git push"
+  },
   "dependencies": {
     "hexo": "^3.9.0",
     "hexo-admin": "^2.3.0",
