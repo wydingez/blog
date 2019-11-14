@@ -1,10 +1,12 @@
 title: 手写一个Promise
 author: wyding
 tags:
-  - j s
+  - js
+  - ''
 categories:
   - 面试
 date: 2019-11-14 16:27:00
+cover: http://wyd-mages.oss-cn-shanghai.aliyuncs.com/43853b2056090306d47874aa3ddece00.jpg
 ---
  > 手写一个Promise😄，[参考文档](https://juejin.im/post/5b2f02cd5188252b937548ab)
  
