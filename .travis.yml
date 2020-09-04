@@ -16,7 +16,7 @@ install:
 script:
 - npm run build
 after_success:
-- scp -o stricthostkeychecking=no -r ./public/* root@119.45.214.222:/home/wyd/project/blog/
+- scp -o stricthostkeychecking=no -r public/* root@119.45.214.222:/home/wyd/project/blog/
 branches:
   only:
   - master
