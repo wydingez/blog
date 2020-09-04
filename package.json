@@ -7,7 +7,7 @@
   },
   "scripts": {
     "dev": "hexo server",
-    "publish": "hexo generate & hexo deploy",
+    "build": "hexo generate",
     "commit": "git add . && git commit -m \"update post\" && git push"
   },
   "dependencies": {
