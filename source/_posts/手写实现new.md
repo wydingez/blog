@@ -73,6 +73,3 @@ function create () {
 #### 14. 手写实现防抖和节流
 
 #### 15. 浏览器跨域的原理，以及跨域的几种方式
-
-
-![upload successful](/blog/images/pasted-1.png)
