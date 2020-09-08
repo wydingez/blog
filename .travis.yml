@@ -20,6 +20,8 @@ after_success:
 branches:
   only:
   - master
+addons:
+    ssh_known_hosts: 119.45.214.222
 env:
   global:
   - secure: 
