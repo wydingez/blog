@@ -23,18 +23,18 @@ Before using “Nexmoe” theme, please read [Hexo’s Official Documents](https
 
 ##Download
 
-#### [Download latest Release](https://github.com/nexmoe/hexo-theme-nexmoe/releases/latest)
+## [Download latest Release](https://github.com/nexmoe/hexo-theme-nexmoe/releases/latest)
 
 >The latest release. Recommended for most users.
 
-#### [Download other version](https://github.com/nexmoe/hexo-theme-nexmoe/releases)
+## [Download other version](https://github.com/nexmoe/hexo-theme-nexmoe/releases)
 
 >You can decide which version to use. Some releases are no longer supported.
 
 Choose the version you want to deploy, expand `Assets` tab in releases page, and download Source Code (zip).
 Unpack it and rename it to `nexmoe`, and then move it to `themes` directory of your Hexo Project.
 
-#### [Using Git](https://github.com/nexmoe/hexo-theme-nexmoe)
+## [Using Git](https://github.com/nexmoe/hexo-theme-nexmoe)
 
 With git you can decide which version and branch you want to use. You can use `git pull` to update the theme if you goes this way.
 ```

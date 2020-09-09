@@ -5,13 +5,14 @@ tags:
   - ''
 categories:
   - 面试
+cover: >-
+  http://wyd-mages.oss-cn-shanghai.aliyuncs.com/43853b2056090306d47874aa3ddece00.jpg
 date: 2019-11-14 16:27:00
-cover: http://wyd-mages.oss-cn-shanghai.aliyuncs.com/43853b2056090306d47874aa3ddece00.jpg
 ---
- > 手写一个Promise😄，[参考文档](https://juejin.im/post/5b2f02cd5188252b937548ab)
+> 手写一个`Promise`😄，[参考文档](https://juejin.im/post/5b2f02cd5188252b937548ab)
  
  <!-- more -->
- ## 1.简单promise实现(只能在同步代码中执行)
+ ## 1.简单`promise`实现(只能在同步代码中执行)
  ```js
  class Promise {
  	constructor (exector) {
@@ -52,7 +53,7 @@ cover: http://wyd-mages.oss-cn-shanghai.aliyuncs.com/43853b2056090306d47874aa3dd
  }
  ```
  
- ## 2.解决异步实现(需要将callback存入一个数组，一旦reject/resolve就依次调用它们)
+ ## 2.解决异步实现(需要将`callback`存入一个数组，一旦`reject/resolve`就依次调用它们)
  ```js
  class Promise {
  	constructor (exector) {

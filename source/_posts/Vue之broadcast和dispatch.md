@@ -9,7 +9,7 @@ categories:
   - 学习笔记
 date: 2019-08-29 14:05:00
 ---
-> 众所周知，Vue在2.0版本中去除了**$broadcast**方法以及**$dispatch**方法，最近在学习饿了么的**Element**时重新实现了这两种方法，并以**minix**的方式引入。
+> 众所周知，`Vue`在2.0版本中去除了`$broadcast`方法以及`$dispatch`方法，最近在学习饿了么的`Element`时重新实现了这两种方法，并以`minix`的方式引入。
 
 <!-- more -->
 看一下[源码](https://github.com/ElemeFE/element/blob/dev/src/mixins/emitter.js)

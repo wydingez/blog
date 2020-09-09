@@ -22,18 +22,18 @@ Hexo 是基于 [Node.js](https://nodejs.org/) 的高效静态站点生成框架�
 
 ## 下载
 
-#### [下载最新 Release 版本](https://github.com/nexmoe/hexo-theme-nexmoe/releases/latest)
+## [下载最新 Release 版本](https://github.com/nexmoe/hexo-theme-nexmoe/releases/latest)
 
 >最新的释出版本，适合大部分用户。
 
-#### [下载其他版本](https://github.com/nexmoe/hexo-theme-nexmoe/releases)
+## [下载其他版本](https://github.com/nexmoe/hexo-theme-nexmoe/releases)
 
 >你可以自己决定想要使用的版本；部分版本可能不再提供技术支持。
 
 选择你所需要的版本，在新打开的页面中找到 Assets 区域，下载 Source Code (zip) 到本地。
 解压所下载的压缩包至站点的 `themes` 目录下， 并将 解压后的文件夹名称 更改为 `nexmoe`（推荐）。
 
-#### [使用 Git](https://github.com/nexmoe/hexo-theme-nexmoe)
+## [使用 Git](https://github.com/nexmoe/hexo-theme-nexmoe)
 
 你可以自己决定想要使用的分支；使用 Git 下载nexmoe以后还可以使用 `git pull` 更新nexmoe。
 ```

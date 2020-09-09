@@ -5,10 +5,11 @@ tags:
   - vue
 categories:
   - 学习笔记
-cover: http://wyd-mages.oss-cn-shanghai.aliyuncs.com/5ab90e21f767b41be05690cf864f68c5.jpg
+cover: >-
+  http://wyd-mages.oss-cn-shanghai.aliyuncs.com/5ab90e21f767b41be05690cf864f68c5.jpg
 date: 2019-08-09 14:33:00
 ---
-> vue打包部署到服务器上后，即使打包的时候开启了hash来避免缓存，但仍然会有问题，排除后是index.html有缓存，因此需要对nginx做以下配置
+> `vue`打包部署到服务器上后，即使打包的时候开启了`hash`来避免缓存，但仍然会有问题，排除后是`index.html`有缓存，因此需要对`nginx`做以下配置
 <!--more--> 
 
 [参考链接](https://medium.com/@pratheekhegde/setting-caching-headers-for-a-spa-in-nginx-eb2f75f52441)
