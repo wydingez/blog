@@ -4,7 +4,7 @@ tags:
   - vue
   - js
 cover: >-
-  http://wyd-mages.oss-cn-shanghai.aliyuncs.com/075735c1884a90377bd7d742bf06fe17.jpg
+  https://wyd-mages.oss-cn-shanghai.aliyuncs.com/075735c1884a90377bd7d742bf06fe17.jpg
 categories:
   - 学习笔记
 date: 2019-08-29 14:05:00

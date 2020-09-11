@@ -5,7 +5,7 @@ tags:
 categories:
   - 学习笔记
 cover: >-
-  http://wyd-mages.oss-cn-shanghai.aliyuncs.com/c9ece60fccb8eabeacc98e6f712f2db906615b2e.jpg
+  https://wyd-mages.oss-cn-shanghai.aliyuncs.com/c9ece60fccb8eabeacc98e6f712f2db906615b2e.jpg
 date: 2019-08-06 15:37:00
 ---
 > `vue`中我们有时候会把多个`route`拆到不同的文件中去，合并的时候我们需要一个一个的去引用，这样不够友好，因此`webpack`的`require.context`和`require`应运而生，它可以帮助我们动态的去引用目录下的文件：[参考链接](https://webpack.docschina.org/guides/dependency-management/)

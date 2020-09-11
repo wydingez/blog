@@ -6,7 +6,7 @@ tags:
 categories:
   - 学习笔记
 cover: >-
-  http://wyd-mages.oss-cn-shanghai.aliyuncs.com/5ab90e21f767b41be05690cf864f68c5.jpg
+  https://wyd-mages.oss-cn-shanghai.aliyuncs.com/5ab90e21f767b41be05690cf864f68c5.jpg
 date: 2019-08-09 14:33:00
 ---
 > `vue`打包部署到服务器上后，即使打包的时候开启了`hash`来避免缓存，但仍然会有问题，排除后是`index.html`有缓存，因此需要对`nginx`做以下配置

@@ -7,7 +7,7 @@ tags:
 categories:
   - 学习笔记
 cover: >-
-  http://wyd-mages.oss-cn-shanghai.aliyuncs.com/a75470ce1ae6c2cc30b0f6429bc1c59a.jpeg
+  https://wyd-mages.oss-cn-shanghai.aliyuncs.com/a75470ce1ae6c2cc30b0f6429bc1c59a.jpeg
 date: 2019-08-28 10:08:00
 ---
 > 业务中遇到以下场景：在用户离开填写表单的页面，如果用户有修改内容，需要提示用户是否确认离开。`window.confirm()`是一个同步的方法，自然没有问题；但是项目中使用`iview`的`modal`组件，需要在点击确认时继续，取消时停止后续操作。

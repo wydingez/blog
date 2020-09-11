@@ -4,7 +4,7 @@ tags:
   - js
 categories: []
 date: 2019-11-01 10:31:00
-cover: http://wyd-mages.oss-cn-shanghai.aliyuncs.com/9d888ef6a19412df883faff2f86a9ae7.jpeg
+cover: https://wyd-mages.oss-cn-shanghai.aliyuncs.com/9d888ef6a19412df883faff2f86a9ae7.jpeg
 ---
 > 最近看到`eval`和`(1, eval)`这个东西，乍一看一脸懵逼，查了下文档，特此记录一下，[参考连接](https://stackoverflow.com/questions/9107240/1-evalthis-vs-evalthis-in-javascript/9107367#9107367)
 
