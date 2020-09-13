@@ -3,6 +3,8 @@ author: wyding
 tags:
   - Git
 categories: []
+cover:
+  https://wyd94-1302884909.cos.ap-nanjing.myqcloud.com/84287640_p0_master1200.jpg
 date: 2020-09-11 16:35:00
 ---
 > 记录一些常用Git命令

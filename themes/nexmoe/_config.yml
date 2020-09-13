@@ -39,14 +39,14 @@ menu:
   回到首页: 
     - /
     - icon-home
-#  文章归档: 
-#    - /archives
-#    - icon-container
+  文章归档: 
+    - /archives
+    - icon-container
   关于博客:
     - /about.html
     - icon-info-circle
-  友情链接: 
-    - /PY.html
+  # 友情链接: 
+  #   - /PY.html
 
 widgets:
 - social
@@ -64,11 +64,6 @@ social:
   GitHub:
     - https://github.com/wydingez
     - icon-github
-    - rgb(25, 23, 23)
-    - rgba(25, 23, 23, .15)
-  emoji:
-    - http://emojihomepage.com/
-    - icon-stream
     - rgb(25, 23, 23)
     - rgba(25, 23, 23, .15)
 
@@ -122,3 +117,8 @@ changyan:
 
 livere:
   data_uid: <data_uid> # 你的来必力 UID，可以在来必力后台获取
+
+# achive widget behavior
+widgetAchive: #文章归档组件
+  archive_type: 'year' #按月展示还是按年展示
+  show_count: true  #是否展示数量

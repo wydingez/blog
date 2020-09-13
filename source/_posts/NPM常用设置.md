@@ -3,6 +3,8 @@ author: wyding
 tags:
   - npm
 categories: []
+cover: 
+  https://wyd94-1302884909.cos.ap-nanjing.myqcloud.com/cee5ef7b52c9e6e0f16dba2c08ed69a4.jpg
 date: 2020-09-11 17:11:00
 ---
 > 收集了npm的一些常用设置

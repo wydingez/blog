@@ -3,6 +3,8 @@ author: wyding
 tags:
   - js
 categories: []
+cover:
+    https://wyd94-1302884909.cos.ap-nanjing.myqcloud.com/973a8a60848ec4014634fbb903feb68a.png
 date: 2020-09-11 16:44:00
 ---
 > 在js中的循环中需要跳出循环，正确的打开方式🙆

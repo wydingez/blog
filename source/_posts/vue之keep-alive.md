@@ -4,6 +4,8 @@ tags:
   - vue
   - keep-alive
 categories: []
+cover:
+  https://wyd94-1302884909.cos.ap-nanjing.myqcloud.com/84287633_p0_master1200.jpg
 date: 2020-09-09 15:22:00
 ---
 > 最近项目中使用keep-alive动态缓存不同页面时，遇到如果是同一个页面，但是在参数不同的时候(如`/base/page/code1` 和 `/base/page/code2`)，会出现缓存的bug，研究过程中记录下

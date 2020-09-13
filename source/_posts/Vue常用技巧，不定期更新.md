@@ -3,9 +3,13 @@ author: wyding
 tags:
   - vue
 categories: []
+cover:
+  https://wyd94-1302884909.cos.ap-nanjing.myqcloud.com/timg.jpg
 date: 2020-09-11 17:23:00
 ---
 > 记录工作中使用vue遇到的问题，以及学到一些小技巧🤣
+
+<!-- more -->
 
 ## 1. 路由的项目启动页和404页面
 ```javascript
