@@ -4,6 +4,8 @@ tags:
   - js
 categories:
   - 面试
+cover:
+  https://wyd94-1302884909.cos.ap-nanjing.myqcloud.com/f571ebf61d6819071818ab135f98af66.jpg
 date: 2020-02-26 11:28:00
 ---
 > 最近看到一个面试题目：`a.x = a = {n: 2}`

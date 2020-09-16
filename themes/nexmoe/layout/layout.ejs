@@ -28,8 +28,8 @@
   <%- open_graph({twitter_id: theme.twitter, google_plus: theme.google_plus, fb_admins: theme.fb_admins, fb_app_id: theme.fb_app_id}) %>
   <link rel="stylesheet" href="<%- theme.cdn.mdui.css %>">
   <link rel="stylesheet" href="<%- theme.cdn.highlight.css %>">
-  <% if(theme.function.fancybox == true) { %> 
-    <link rel="stylesheet" href="<%- theme.cdn.fancybox.css %>" />
+  <% if(theme.function.fancybox == true) { %>
+  <link rel="stylesheet" href="<%- theme.cdn.fancybox.css %>" />
   <% } %>
   <link rel="stylesheet" href="//at.alicdn.com/t/font_1038733_0xvrvpg9c0r.css">
   <%- css_auto_version('css/style') %>
@@ -39,16 +39,16 @@
   <%- partial('_partial/_analytics/gtm-body', {}, {cache: true}) %>
   <div class="nexmoe-bg" style="background-image: url(<%= theme.background %>)"></div>
   <div id="nexmoe-header">
-      <%- partial('_partial/header', {}, {cache: true}) %>
+    <%- partial('_partial/header', {}, {cache: true}) %>
   </div>
   <div id="nexmoe-content">
     <div class="nexmoe-primary">
-        <div class="nexmoe-tab">
-            <a mdui-drawer="{target: '#drawer', swipe: true}">
-              <i class="mdui-icon material-icons">menu</i>
-            </a>
-          </div>
-        <%- body %>
+      <div class="nexmoe-tab">
+        <a mdui-drawer="{target: '#drawer', swipe: true}">
+          <i class="mdui-icon material-icons">menu</i>
+        </a>
+      </div>
+      <%- body %>
     </div>
   </div>
   <%- partial('_partial/after-footer', {}, {cache: true}) %>
