@@ -95,3 +95,6 @@ admin:
   password_hash: $2a$10$gTshWyLwcebJ6A6tBRlRHeAriX1dU.MuxLAZzjCCauoBXiF72oWQC
   secret: my super secret phrase
   deployCommand: './hexo-generate.sh'
+
+aplayer:
+  meting: true

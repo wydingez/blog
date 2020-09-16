@@ -80,7 +80,7 @@ analytics: # 统计系统，目前支持 Google analytics.js 统计、Google Tag
   baidu_site_id: #<ID>
   gtm_container_id: #<ID>
 
-comment: gitment # 评论框，目前支持 gitalk,gitment,valine,disqus,disqusjs,changyan,livere
+comment: valine # 评论框，目前支持 gitalk,gitment,valine,disqus,disqusjs,changyan,livere
 
 gitalk:
   admin: nexmoe # 拥有对该repo进行操作的 GitHub username
@@ -96,8 +96,8 @@ gitment:
   clientSecret: 5aa3a13bd1103da3a4d7d83e0386f327777735e7 # GitHub Client Secret
 
 valine: 
-  appId: <API_ID> # leancloud application app id
-  appKey: <API_Key> # leancloud application app key
+  appId: Iq4Ld6BF5YGLnYvs0gH1Wka9-gzGzoHsz # leancloud application app id
+  appKey: qCMRRvbu1cT6NrsWweKBqJLS # leancloud application app key
 
 disqus:
   shortname: <shortname> # 你的 Disqus shortname
@@ -111,7 +111,7 @@ disqusjs:
   adminLabel: <adminLabel> # 你想显示在 Disqus Moderator Badge 中的文字。该配置应和 Disqus Admin - Settings - Community - Moderator Badge Text 相同
 
 changyan:
-  appid: <APP_ID> # 畅言的 APPID
+  appid: <APPId> # 畅言的 APPID
   conf: <CONF> # 畅言的 CONF
   thread_key_type: path # 可选 id 或 path
 
