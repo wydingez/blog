@@ -6,7 +6,7 @@ tags:
 categories:
   - 面试
 cover: >-
-  https://wyd-mages.oss-cn-shanghai.aliyuncs.com/43853b2056090306d47874aa3ddece00.jpg
+  https://cdn.wyd94.top/43853b2056090306d47874aa3ddece00.jpg
 date: 2019-11-14 16:27:00
 ---
 > 手写一个`Promise`😄，[参考文档](https://juejin.im/post/5b2f02cd5188252b937548ab)

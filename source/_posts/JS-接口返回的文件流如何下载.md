@@ -4,7 +4,7 @@ tags:
   - js
 categories: []
 cover:
-  https://wyd94-1302884909.cos.ap-nanjing.myqcloud.com/d882e9bd7e1dbfddd5dc6066f4b6ab51.jpg
+  https://cdn.wyd94.top/d882e9bd7e1dbfddd5dc6066f4b6ab51.jpg
 date: 2020-09-11 16:49:00
 ---
 > 工作中，一般的文件下载我们可以通过**window.open(/xxxx/downloadFileGet?id=xxx)**的方式，这种属于**get**请求，但是如果我们的使用**post**请求，该如何来实现呢？🤔

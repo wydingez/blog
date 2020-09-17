@@ -4,7 +4,7 @@ tags:
   - npm
 categories: []
 cover: 
-  https://wyd94-1302884909.cos.ap-nanjing.myqcloud.com/698876905d348783773196309a72cc68.jpg
+  https://cdn.wyd94.top/698876905d348783773196309a72cc68.jpg
 date: 2020-09-11 17:11:00
 ---
 > 收集了npm的一些常用设置

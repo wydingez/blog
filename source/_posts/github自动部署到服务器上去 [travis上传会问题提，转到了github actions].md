@@ -6,7 +6,7 @@ tags:
   - 自动化部署
 categories: []
 cover:
-  https://wyd94-1302884909.cos.ap-nanjing.myqcloud.com/82d25598828c702b5f85a725bcd09b60.jpg
+  https://cdn.wyd94.top/82d25598828c702b5f85a725bcd09b60.jpg
 date: 2020-09-04 14:25:00
 ---
 > `github` + `travis`自动集成

@@ -1,7 +1,7 @@
 title: 面试相关-JS
 author: wyding
 cover: >-
-  https://wyd94-1302884909.cos.ap-nanjing.myqcloud.com/2c0c82a61b922fd07a3ffc455e564987.jpg
+  https://cdn.wyd94.top/2c0c82a61b922fd07a3ffc455e564987.jpg
 date: 2020-04-14 21:00:17
 tags:
 ---
