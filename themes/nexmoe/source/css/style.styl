@@ -264,12 +264,16 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-    .nexmoe-posts {
+    .nexmoe-posts, .nexmoe-archives, {
         margin-top: 64px;
     }
 
+    .nexmoe-about {
+        margin-top: 44px;
+    }
+
     .nexmoe-tab {
-        border-bottom: 1px solid #ff4e6a;
+        border-bottom: 1px dashed #ddd;
     }
 }
 
@@ -354,10 +358,6 @@ body {
                 margin-bottom: 0;
             }
         }
-
-        .nexmoe-post-cover {
-            height: 300px;
-        }
     }
 
     .nexmoe-post {
@@ -367,7 +367,7 @@ body {
             overflow: hidden;
             border-radius: 10px;
             margin-bottom: 10px;
-            max-height: 500px;
+            max-height: 300px;
             min-height: 65px;
             background-color: #eee;
 
