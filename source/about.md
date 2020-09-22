@@ -7,11 +7,11 @@ date: NaN-NaN-NaN NaN:NaN:NaN
 
 这个博客主要用于我记录工作中的一些问题，以及分享生活中的琐事的地方，主要用到的技术：
 
-* 博客插件[hexo](https://hexo.io/)
+* 博客插件[Hexo](https://hexo.io/)
 * 博客主题[@Nexmoe](https://nexmoe.com/hexo-theme-nexmoe.html) 
-* 音乐播放插件[hexo-tag-aplayer](https://github.com/MoePlayer/hexo-tag-aplayer)
+* 音乐播放插件[Hexo-tag-aplayer](https://github.com/MoePlayer/hexo-tag-aplayer)
 * 博客代码[Github](https://github.com/wydingez/blog)
-* 可持续化集成工具[Github action](https://docs.github.com/cn/actions/building-and-testing-code-with-continuous-integration/about-continuous-integration)
+* 可持续化集成工具[Github Action](https://docs.github.com/cn/actions/building-and-testing-code-with-continuous-integration/about-continuous-integration)
 * 云服务器[腾讯云](https://cloud.tencent.com/)
 
 <hr>   
