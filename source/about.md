@@ -13,6 +13,7 @@ date: NaN-NaN-NaN NaN:NaN:NaN
 * 博客代码[Github](https://github.com/wydingez/blog)
 * 可持续化集成工具[Github Action](https://docs.github.com/cn/actions/building-and-testing-code-with-continuous-integration/about-continuous-integration)
 * 云服务器[腾讯云](https://cloud.tencent.com/)
+* 图片云存储[七牛云](https://portal.qiniu.com/)
 
 <hr>   
 
