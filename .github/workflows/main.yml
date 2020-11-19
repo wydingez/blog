@@ -32,10 +32,10 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Deploy to Server
-        uses: hengkx/ssh-deploy@v2.1.5
+        uses: easingthemes/ssh-deploy@v2.1.5
         with: # 以下为参数
-          USERNAME: ${{ secrets.DEPLOY_USER }} 
-          PASSWORD: ${{ secrets.DEPLOY_PASSWORD }}
-          HOST: ${{ secrets.DEPLOY_HOST }}
+          REMOTE_USER: ${{ secrets.DEPLOY_USER }} 
+          ARGS: ${{ secrets.DEPLOY_PASSWORD }}
+          REMOTE_HOST: ${{ secrets.DEPLOY_HOST }}
           SOURCE: 'public'
           TARGET: '/home/wyd/project/blog/'
