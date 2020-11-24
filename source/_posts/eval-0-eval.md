@@ -1,10 +1,10 @@
-title: 'eval & (0, eval)'
+title: 'eval & (0, eval) & new Function'
 author: wyding
 tags:
   - js
 categories: []
+cover: 'https://cdn.wyd94.top/9d888ef6a19412df883faff2f86a9ae7.jpeg'
 date: 2019-11-01 10:31:00
-cover: https://cdn.wyd94.top/9d888ef6a19412df883faff2f86a9ae7.jpeg
 ---
 > 最近看到`eval`和`(1, eval)`这个东西，乍一看一脸懵逼，查了下文档，特此记录一下，[参考连接](https://stackoverflow.com/questions/9107240/1-evalthis-vs-evalthis-in-javascript/9107367#9107367)
 
@@ -71,3 +71,41 @@ var x = 'outer';
 ```
 
 对于问题2，`this` cannot be set to `null` or `undefined`
+
+## 3. eval作用域
+```js
+var x = 'outer';
+(function() {
+  var x = 'inner';
+  eval('console.log("direct call: " + x)'); 
+  (1,eval)('console.log("indirect call: " + x)'); 
+})();
+```
+
+输出：
+```js
+direct call: inner
+indirect call: outer
+```
+
+原因：
+- **(1, eval)是个表达式，；类似1 && eval,属于间接引用了eval；**
+- **eval 只在被直接调用时，this指向才是当前作用域，否则则是全局作用域；**
+
+
+## 4. new Function ([arg1[, arg2[, ...argN]],] functionBody)
+```js
+var x = 'outer';
+(function() {
+  var x = 'inner';
+  new Function('console.log("call: " + x)')();
+})();
+```
+
+输出：
+```js
+call: outer
+```
+
+原因：
+- **与 eval 不同的是，Function 创建的函数只能在全局作用域中运行。**
