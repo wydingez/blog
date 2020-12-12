@@ -1,6 +1,8 @@
 title: vue3+typescript中eslint报错
 author: wyding
 date: 2020-11-18 15:10:02
+cover:
+  http://cdn.wyd94.top/3dbcafa8-703f-79fd-4bae-c436a01d269b.png
 tags:
 ---
 > 最近在学习vue3+typescript中，vue.config.js中出现eslint报错，记录一下解决方案
