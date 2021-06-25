@@ -4,6 +4,8 @@ tags:
   - js
 categories: []
 date: 2021-04-02 17:31:00
+cover: 
+  https://cdn.wyd94.top/IMG_3345.jpeg
 ---
 > - xss: 跨站脚本攻击（Cross Site Scripting),最常见攻击web网站的方法，攻击这通过注入非法的html标签或者javascript代码，从而控制用户浏览器
 - csrf：跨站点请求伪造（Cross-Site Request Forgeries）
